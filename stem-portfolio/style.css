@@ -36,3 +36,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+h1 {
+    text-align: center;
+}
