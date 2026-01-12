@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="questioning.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.453125"
+     inkscape:cx="128.1448"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1128"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       id="path1"
+       cx="32.128315"
+       cy="38.707157"
+       r="3.5245852" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="M 31.898453,42.231744 V 54.49117 l -2.482043,9.263112"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 32.051696,54.567791 2.29938,8.581403"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 27.745328,49.445698 4.076504,-7.06071 3.725568,6.452873"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#000000;stroke-width:0.235"
+       x="29.805731"
+       y="32.180996"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.235"
+         x="29.805731"
+         y="32.180996">???</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="inaudible.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.453125"
+     inkscape:cx="127.8552"
+     inkscape:cy="147.9819"
+     inkscape:window-width="1920"
+     inkscape:window-height="1128"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       id="path1"
+       cx="16.090498"
+       cy="41.452187"
+       r="3.5245852" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="M 15.860633,44.976772 V 57.236198 L 13.37859,66.49931"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 16.013876,57.312819 2.29938,8.581403"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 11.707508,52.190726 4.076504,-7.06071 3.725568,6.452873"
+       id="path4" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       id="path1-1"
+       cx="51.845196"
+       cy="40.948341"
+       r="3.5245852" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 51.615322,44.472925 v 12.259426 l -2.482043,9.263112"
+       id="path2-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 51.768565,56.808972 2.29938,8.581403"
+       id="path3-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 47.462197,51.686879 4.076504,-7.06071 3.725568,6.452873"
+       id="path4-0" />
+    <path
+       d="m 19.753261,10.981253 -1.781076,4.018897 a 6.2446456,10.650377 75 0 0 -4.200497,0.598016 6.2446456,10.650377 75 0 0 -7.5355832,4.55556 l -4.4487046,-1.027128 3.2658803,3.493134 1.338e-4,4.99e-4 a 6.2446456,10.650377 75 0 0 0.047519,1.766657 6.2446456,10.650377 75 0 0 1.5307437,2.202748 l -1.0500166,3.736341 3.1216455,-2.651676 a 6.2446456,10.650377 75 0 0 4.0460601,0.586647 l 2.874779,9.051656 -0.694671,-9.223334 a 6.2446456,10.650377 75 0 0 2.07478,-0.427003 6.2446456,10.650377 75 0 0 0.493299,-0.139633 l 2.366896,2.228544 -0.395522,-2.945625 a 6.2446456,10.650377 75 0 0 5.410108,-4.175998 l 5.425808,0.199291 -4.543506,-2.41518 a 6.2446456,10.650377 75 0 0 -0.0857,-1.539755 6.2446456,10.650377 75 0 0 -6.167061,-3.816248 z"
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="M 33.406937,-0.22986425 V 69.342383"
+       id="path9" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#000000;stroke-width:0.235"
+       x="48.807842"
+       y="28.886274"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:0.235"
+         x="48.807842"
+         y="28.886274">???</tspan></text>
+  </g>
+</svg>

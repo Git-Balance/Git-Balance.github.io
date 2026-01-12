@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="outbreak.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.453125"
+     inkscape:cx="127.8552"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1128"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 35.53868,38.671726 c 0,0 2.048694,2.354468 1.599476,5.304186 -0.519627,3.412034 -2.559912,5.385223 -2.559912,5.385223"
+       id="path5"
+       sodipodi:nodetypes="csc" />
+    <path
+       d="m 37.866557,35.619466 c 0,0 3.281446,3.771207 2.561921,8.495844 -0.832298,5.465138 -4.100272,8.625643 -4.100272,8.625643"
+       style="fill:none;stroke:#000000;stroke-width:0.376405"
+       id="path1-8" />
+    <path
+       d="m 40.286112,33.688972 c 0,0 4.267645,4.904602 3.331875,11.049172 -1.082435,7.10762 -5.33256,11.217979 -5.33256,11.217979"
+       style="fill:none;stroke:#000000;stroke-width:0.489529"
+       id="path1-2" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       id="path1"
+       cx="23.790949"
+       cy="43.372505"
+       r="3.7161388" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 22.14359,46.782162 -3.677829,9.960784 -3.064856,6.666064"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 18.38914,56.89619 1.915535,6.129712"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.235"
+       d="m 14.941176,49.463912 7.049171,-2.758371 -6.512821,-0.383107"
+       id="path4" />
+  </g>
+</svg>
