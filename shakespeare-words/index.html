@@ -1,206 +1,257 @@
 <!DOCTYPE html>
+
+<!--
+This webpage was made for a school project
+-->
+
 <html>
-	<head>
-		<link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
-		<script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
-		<script type="module" src="./script.js"></script>
-		<link rel="stylesheet" href="style.css">
-		<title>Page Title</title>
-	</head>
-	<body>
-		<div id="intro-text">
-			<h1>This is a Heading</h1>
-			<p>This is a paragraph.</p>
-		</div>
-		<div id="word-table">
-			<table>
-				<tr>
-					<td>Words</td>
-					<td>Pronunciation</td>
-					<td>Definition</td>
-					<td>Image</td>
-				</tr>
-				<tr>
-					<td>accommodation</td>
-					<td>ə-ˌkä-mə-ˈdā-shən</td>
-					<td>something supplied for convenience or to satisfy a need</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>bedroom</td>
-					<td>ˈbed-ˌrüm</td>
-					<td>a room furnished with a bed and intended primarily for sleeping</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>bump</td>
-					<td>ˈbəmp</td>
-					<td>a sudden forceful blow, impact, or jolt</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>countless</td>
-					<td>ˈkau̇nt-ləs</td>
-					<td>too numerous to be counted</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>critic</td>
-					<td>ˈkri-tik</td>
-					<td>one who engages often professionally in the analysis, evaluation, or appreciation of works of art or artistic performances</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>dislocate</td>
-					<td>ˈdis-lō-ˌkāt</td>
-					<td>to put out of place</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>downstairs</td>
-					<td>ˈdau̇n-ˈsterz</td>
-					<td>on or to a lower floor</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>eyeball</td>
-					<td>ˈī-ˌbȯl</td>
-					<td>the more or less globular capsule of the vertebrate eye formed by the sclera and cornea together with their contained structures</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>fashionable</td>
-					<td>ˈfa-shə-nə-bəl</td>
-					<td>conforming to the custom, fashion, or established mode</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>frugal</td>
-					<td>ˈfrü-gəl</td>
-					<td>characterized by or reflecting thrift and efficiency in the use of resources</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>gloomy</td>
-					<td>ˈglü-mē</td>
-					<td>lacking in promise or hopefulness</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>gossip</td>
-					<td>ˈgä-səp</td>
-					<td>rumors or information about the behavior or personal lives of other people</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>hurry</td>
-					<td>ˈhər-ē</td>
-					<td>to impel to rash or precipitate action</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>impartial</td>
-					<td>im-ˈpär-shəl</td>
-					<td>not partial or biased</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>inaudible</td>
-					<td>i-ˈnȯ-də-bəl</td>
-					<td>not audible</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>jaded</td>
-					<td>ˈjā-dəd</td>
-					<td>feeling or showing a lack of interest or excitement that is caused by having done or experienced too much of something</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>lonely</td>
-					<td>ˈlōn-lē</td>
-					<td>being without company</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>majestic</td>
-					<td>mə-ˈje-stik</td>
-					<td>having or exhibiting majesty</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>manager</td>
-					<td>ˈma-ni-jər</td>
-					<td>a person whose work or profession is management</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>obscene</td>
-					<td>äb-ˈsēn</td>
-					<td>abhorrent to morality or virtue</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>outbreak</td>
-					<td>ˈau̇t-ˌbrāk</td>
-					<td>a sudden or violent increase in activity or disease</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>pious</td>
-					<td>ˈpī-əs</td>
-					<td>marked by or showing reverence for deity and devotion to divine worship</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>questioning</td>
-					<td>ˈkwes-chə-niŋ</td>
-					<td>the activity or process of asking questions</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>rant</td>
-					<td>ˈrant</td>
-					<td>to complain loudly, angrily, or unreasonably</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>reliance</td>
-					<td>ri-ˈlī-ən(t)s</td>
-					<td>the state of being reliant</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>suspicious</td>
-					<td>sə-ˈspi-shəs</td>
-					<td>tending to arouse suspicion</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>swagger</td>
-					<td>ˈswa-gər</td>
-					<td>to conduct oneself in an arrogant or superciliously pompous manner</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>traditional</td>
-					<td>trə-ˈdi-sh(ə-)nəl</td>
-					<td>consisting of or derived from tradition</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>varied</td>
-					<td>ˈver-ēd</td>
-					<td>various, diverse</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>worthless</td>
-					<td>ˈwərth-ləs</td>
-					<td>valueless</td>
-					<td></td>
-				</tr>
-			</table>
-		</div>
-	</body>
+    <head>
+        <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator.min.css" rel="stylesheet">
+        <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+        <script type="module" src="./script.js"></script>
+        <style>
+body {
+    display: flex;
+    gap: 5px;
+    font-family: "Times New Roman", sans-serif;
+    line-height: 2em;
+}
+#intro-text {
+    background-color: lightgrey;
+    flex-grow: 1;
+    padding: 15px;
+    flex-basis: 500px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+#word-table {
+    flex-grow: 2;
+    padding: 30px;
+    border-radius: 10px;
+}
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+tr {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 0.6em;
+}
+td {
+    padding: 0.6em;
+}
+.empty-space {
+    height: 100px;
+}
+        </style>
+        <title>Shakespeare's Dictionary</title>
+    </head>
+    <body>
+        <div id="intro-text">
+            <h2>Shakespeare's Dictionary</h2>
+            <p>Shakespeare created or introduced more than 1,700 words.</p>
+            <p>He created the words by adding or modifying pre-existing words together.</p>
+            <p style="text-align: center;">bed + room = bedroom</p>
+            <div class="empty-space"></div>
+            <p> Sources:
+            <ul>
+                <li><a href="www.merriam-webster.com">Merriam-Webster</a></li>
+                <li><a href="englishonline.britishcouncil.org/blog/articles/a-closer-look-at-everyday-words-shakespeare-invented/">A Closer Look at Everyday Words Shakespeare Invented</a></li>
+                <li><a href="www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-words/">Shakespeare's Words</a></li>
+            </ul>
+            </p>
+        </div>
+        <div id="word-table">
+            <table>
+                <tr>
+                    <td>Words</td>
+                    <td>Pronunciation</td>
+                    <td>Definition</td>
+                    <td>Image</td>
+                </tr>
+                <tr>
+                    <td>accommodation</td>
+                    <td>ə-ˌkä-mə-ˈdā-shən</td>
+                    <td>something supplied for convenience or to satisfy a need</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/accommodation.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>bedroom</td>
+                    <td>ˈbed-ˌrüm</td>
+                    <td>a room furnished with a bed and intended primarily for sleeping</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/bedroom.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>bump</td>
+                    <td>ˈbəmp</td>
+                    <td>a relatively abrupt convexity or protuberance on a surface</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/bump.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>countless</td>
+                    <td>ˈkau̇nt-ləs</td>
+                    <td>too numerous to be counted</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/countless.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>critic</td>
+                    <td>ˈkri-tik</td>
+                    <td>one who engages often professionally in the analysis, evaluation, or appreciation of works of art or artistic performances</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/critic.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>dislocate</td>
+                    <td>ˈdis-lō-ˌkāt</td>
+                    <td>to put out of place</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/dislocate.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>downstairs</td>
+                    <td>ˈdau̇n-ˈsterz</td>
+                    <td>on or to a lower floor</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/downstairs.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>eyeball</td>
+                    <td>ˈī-ˌbȯl</td>
+                    <td>the more or less globular capsule of the vertebrate eye formed by the sclera and cornea together with their contained structures</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/eyeball.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>fashionable</td>
+                    <td>ˈfa-shə-nə-bəl</td>
+                    <td>conforming to the custom, fashion, or established mode</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/fashionable.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>frugal</td>
+                    <td>ˈfrü-gəl</td>
+                    <td>characterized by or reflecting thrift and efficiency in the use of resources</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/frugal.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>gloomy</td>
+                    <td>ˈglü-mē</td>
+                    <td>lacking in promise or hopefulness</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/gloomy.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>gossip</td>
+                    <td>ˈgä-səp</td>
+                    <td>rumors or information about the behavior or personal lives of other people</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/gossip.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>hurry</td>
+                    <td>ˈhər-ē</td>
+                    <td>to impel to rash or precipitate action</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/hurry.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>impartial</td>
+                    <td>im-ˈpär-shəl</td>
+                    <td>not partial or biased</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/impartial.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>inaudible</td>
+                    <td>i-ˈnȯ-də-bəl</td>
+                    <td>not audible</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/inaudible.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>jaded</td>
+                    <td>ˈjā-dəd</td>
+                    <td>feeling or showing a lack of interest or excitement that is caused by having done or experienced too much of something</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/jaded.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>lonely</td>
+                    <td>ˈlōn-lē</td>
+                    <td>being without company</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/lonely.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>majestic</td>
+                    <td>mə-ˈje-stik</td>
+                    <td>having or exhibiting majesty</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/majestic.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>manager</td>
+                    <td>ˈma-ni-jər</td>
+                    <td>a person whose work or profession is management</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/manager.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>obscene</td>
+                    <td>äb-ˈsēn</td>
+                    <td>abhorrent to morality or virtue</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/obscene.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>outbreak</td>
+                    <td>ˈau̇t-ˌbrāk</td>
+                    <td>a sudden or violent increase in activity or disease</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/outbreak.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>pious</td>
+                    <td>ˈpī-əs</td>
+                    <td>marked by or showing reverence for deity and devotion to divine worship</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/pious.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>questioning</td>
+                    <td>ˈkwes-chə-niŋ</td>
+                    <td>the activity or process of asking questions</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/questioning.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>rant</td>
+                    <td>ˈrant</td>
+                    <td>to complain loudly, angrily, or unreasonably</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/rant.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>reliance</td>
+                    <td>ri-ˈlī-ən(t)s</td>
+                    <td>the state of being reliant</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/reliance.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>suspicious</td>
+                    <td>sə-ˈspi-shəs</td>
+                    <td>tending to arouse suspicion</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/suspicious.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>swagger</td>
+                    <td>ˈswa-gər</td>
+                    <td>to conduct oneself in an arrogant or superciliously pompous manner</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/swagger.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>traditional</td>
+                    <td>trə-ˈdi-sh(ə-)nəl</td>
+                    <td>consisting of or derived from tradition</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/traditional.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>varied</td>
+                    <td>ˈver-ēd</td>
+                    <td>various, diverse</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/varied.svg"></img></td>
+                </tr>
+                <tr>
+                    <td>worthless</td>
+                    <td>ˈwərth-ləs</td>
+                    <td>valueless</td>
+                    <td><img src="https://raw.githubusercontent.com/Git-Balance/Git-Balance.github.io/17543b0b3e86cd467000c3f4265f04914f1dd68b/shakespeare-words/images/worthless.svg"></img></td>
+                </tr>
+            </table>
+        </div>
+    </body>
 </html>
